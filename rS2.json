@@ -1,0 +1,63 @@
+{
+  "conocimiento": [
+    ["Ballena", "es", "Mammalia"],
+    ["Ballena", "es", "Viviparo"],
+    ["Ballena", "tiene", "Glandulas Mamarias"],
+    ["Ballena", "es", "Vertebrado"],
+    ["Ballena", "vive", "Agua"],
+
+    ["Tortuga", "es", "Sauropsido"],
+    ["Tortuga", "tiene", "Proteccion Queratina"],
+    ["Tortuga", "tiene", "Garras"],
+    ["Tortuga", "es", "Vertebrado"],
+    ["Tortuga", "es", "Oviparo"],
+    ["Tortuga", "es", "Tetrapodo"],
+    ["Tortuga", "vive", "Agua"],
+
+    ["Gallo", "es", "Sauropsido"],
+    ["Gallo", "tiene", "Proteccion Queratina"],
+    ["Gallo", "tiene", "Garras"],
+    ["Gallo", "es", "Vertebrado"],
+    ["Gallo", "es", "Oviparo"],
+    ["Gallo", "es", "Tetrapodo"],
+    ["Gallo", "vive", "Tierra"],
+
+    ["Cocodrilo", "es", "Sauropsido"],
+    ["Cocodrilo", "tiene", "Proteccion Queratina"],
+    ["Cocodrilo", "tiene", "Garras"],
+    ["Cocodrilo", "es", "Vertebrado"],
+    ["Cocodrilo", "es", "Oviparo"],
+    ["Cocodrilo", "es", "Tetrapodo"],
+    ["Cocodrilo", "vive", "Agua"],
+
+    ["Iguana", "es", "Sauropsido"],
+    ["Iguana", "tiene", "Proteccion Queratina"],
+    ["Iguana", "tiene", "Garras"],
+    ["Iguana", "es", "Vertebrado"],
+    ["Iguana", "es", "Oviparo"],
+    ["Iguana", "es", "Tetrapodo"],
+    ["Iguana", "vive", "Tierra"],
+
+    ["Gato", "es", "Mammalia"],
+    ["Gato", "es", "Viviparo"],
+    ["Gato", "tiene", "Glandulas Mamarias"],
+    ["Gato", "tiene", "Pelo"],
+    ["Gato", "tiene", "Garras"],
+    ["Gato", "es", "Vertebrado"],
+    ["Gato", "vive", "Tierra"],
+
+    ["Oso", "es", "Mammalia"],
+    ["Oso", "es", "Viviparo"],
+    ["Oso", "tiene", "Glandulas Mamarias"],
+    ["Oso", "tiene", "Pelo"],
+    ["Oso", "tiene", "Garras"],
+    ["Oso", "es", "Vertebrado"],
+    ["Oso", "vive", "Tierra"],
+
+    ["Delfin", "es", "Mammalia"],
+    ["Delfin", "es", "Viviparo"],
+    ["Delfin", "tiene", "Glandulas Mamarias"],
+    ["Delfin", "es", "Vertebrado"],
+    ["Delfin", "vive", "Agua"]
+  ]
+}
