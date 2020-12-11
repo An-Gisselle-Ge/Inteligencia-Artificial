@@ -1,25 +1,25 @@
 
 def horizontal(fila,col,matriz):
-	while(col <= 3):
+	while col <= len(matriz) - 1:
 		if (matriz[fila][col] == 0):
 			matriz[fila][col] = 2
 		col = col + 1
 
 def vertical(fila,col,matriz):
-	while(fila <= 3):
+	while(fila <= len(matriz) - 1):
 		if (matriz[fila][col] == 0):
 			matriz[fila][col] = 2
 		fila = fila + 1
 
 def diagonalder_izq(fila,col,matriz):
-	while(fila <= 3 and col <= 3):
+	while(fila <= len(matriz) - 1 and col <= len(matriz) - 1):
 		if (matriz[fila][col] == 0):
 			matriz[fila][col] = 2
 		fila = fila + 1
 		col = col + 1
 
 def diagonalizq_der(fila,col,matriz):
-	while(fila <= 3 and col >= 0):
+	while(fila <= len(matriz) - 1 and col >= 0):
 		if (matriz[fila][col] == 0):
 			matriz[fila][col] = 2
 		fila = fila + 1
@@ -29,7 +29,7 @@ def colocarReinas(fila,col):
 	matriz = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
 	r = 0
 
-	#evaluar si se pueden colocar reinas
+	#evaluar si se pueden colocar reinas usando los indices
 	while r != 4 and fila < 4:
 		while matriz[fila][col] != 0:
 			if col != 3:
